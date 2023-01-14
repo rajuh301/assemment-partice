@@ -129,9 +129,10 @@ nav a{
 .cullection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     text-align: center;
     gap:30px;
-    margin: 20px 196px ;
+    margin: 30px 196px ;
     
 }
 
@@ -142,41 +143,56 @@ nav a{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     padding:20px;
+    text-align: left;
+
 
 }
 
+.product-collection h2{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    
+}
 
-.popular-cullection h3{
+
+
+.product-collection h4{
+    margin-top: -15px;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(114, 98, 5);
+}
+
+/* star icone */
+#star{
+    
+}
+#star img{
+
+    height: 15px;
+    width: 15px;
+}
+
+
+#second-title{
     margin-top: 300px;
     text-align: center;
-
 }
 
-.popular-cullection h2{
-    text-align: left;
-}
 
-.popular-cullection h4{
-    text-align: left;
+.product-collection img{
+    width: 300px;
+    height: 256px;
+    left: 210px;
+    top: 1052px;
 }
-
-.popular-cullection h6{
-    text-align: left;
-}
-
-.popular-cullection p{
-    text-align: left;
-}
-
 
 
 /* responsiv ariya */
 
 @media screen and (width:576px) {
-    .top-content{
-        margin-left: 0;
-    
 
-    }
     
 }
